@@ -1,0 +1,43 @@
+.body {
+    min-width: 1600px;
+}
+.container {
+    width: 100%;
+}
+/* Header */
+.header {
+    width: 100%;
+}
+.header-inner {
+    background: url(../img/Home\ Background@1X.png);
+    height: 770px;
+}
+.header-nav {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo {
+    margin-left: 229px;
+    font-size: 24px;
+    opacity: .8;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: white;
+    text-align: left;
+}
+.nav {
+    margin-left: 830px;
+    color: white;
+    opacity: .8;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: 2;
+}

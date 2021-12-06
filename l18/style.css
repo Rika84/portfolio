@@ -1,0 +1,39 @@
+.header{
+    height: 50px;
+    background-color: rgb(29, 9, 83);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu{
+    width: 25%;
+}
+.boder{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 37, 7);
+}
+.container{
+    display: flex;
+}
+h5{
+    background-color: yellow;
+    border-radius: 30px;
+    width: 33%;
+    justify-content: center;
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.review{
+    color: rgb(87, 87, 87);
+}
+h4{
+    color: cyan;
+    justify-content: center;
+}

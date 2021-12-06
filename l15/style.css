@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text {
+    width: 25%;
+    font-size: 20px;
+    color: red;
+}
+@media (max-width:700px) {
+    .text {
+        width: 50%;
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .text {
+        width: 100%;
+        font-size: 40px;
+        background-color:green;
+    }
+}

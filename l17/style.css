@@ -1,0 +1,28 @@
+.container{
+    min-width: 1000px;
+}
+h5{
+    background-color: yellow;
+    border-radius: 30px;
+    width: 33%;
+    justify-content: center;
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.review{
+    color: rgb(87, 87, 87);
+}
+h1{
+    background-color: rgb(174, 40, 201);
+    border-radius: 30px;
+    width: 33%;
+    justify-content: right;
+    display: flex;
+    height: 35px;
+    align-items: right;
+}

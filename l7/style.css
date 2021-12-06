@@ -1,0 +1,50 @@
+.container{
+    max-width: 1200px;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-style: 35px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+ul{
+    list-style-type: none;
+}
+ul > l1{
+    font-size: 25px;
+    padding: 10px;
+}
+ul > l1:hover{
+    font-style: 30px;
+    font-weight: 700;
+    cursor: context-menu;
+    color: rgb (63, 2, 71);
+}
+.header{
+    width: 100%;
+    background: black;
+}
+.header-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-inner{
+    width: 100%;
+    display: flex;
+}
+.aside-left{
+    width: 27%;
+    height: 800px;
+    padding: 20px 40px;
+    background-color: yellow;
+}
+.aside-left-menu{
+
+}

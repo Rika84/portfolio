@@ -1,0 +1,31 @@
+.header, .main {
+    width: 600px;
+}
+
+.block {
+    height: 50px;
+    width: 100%;
+}
+.red {
+    background-color: #ff0011;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.main-top {
+    width: 33.3333%;
+    height: 50px;
+    float: left;
+}
+
+
+.footer{
+    width: 700px;
+}

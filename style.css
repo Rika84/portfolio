@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(161, 255, 255);
+}
+.header{
+    text-align: center;
+    height: 70px;
+    padding: 30px;
+    background-color: rgb(160, 230, 235);
+    color: rgb(0, 10, 39);
+    font-size: 55px;
+}
+.container{
+    display: flex;
+}
