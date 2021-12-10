@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+    max-width: 1440px;
+}
+.header-inner{
+    width: 100%;
+}
+.header-top{
+    display: flex;
+}
+.header-logo{
+    width: 131px;
+    height: 72px;
+    padding-left: 100px;
+    padding-top: 17px;
+}
+.header-lang{
+    text-align: center;
+
+}
+.lang{
+    font-family: 'Suisse Intl Trial';
+    font-size: 16px;
+    padding-top: 28px;
+    padding-left: 54px;
+    
+}
+.RU{
+    background-color: rgb(74, 210, 149, 1);
+    color: rgb(255, 255, 255);
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    border-radius: 2px;
+    font-family: 'Suisse Intl Trial';
+    font-style: normal;
+    font-weight: bold;
+}
+.course{
+    padding-left: 58px;
+    padding-top: 31px;
+}
+.icons{
+    padding-left: 57px;
+    padding-top: 42px;
+    width: 135px;
+    display: flex;
+}
+.inst{
+    padding-left: 15px;
+}
+.you{
+    padding-left: 15px;
+}
+.phone{
+    padding-top: 29px;
+    display: flex;
+}
+.p04{
+    width: 128px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.p06{
+    width: 129px;
+    font-weight: bold;
+    font-size: 16px;
+}
