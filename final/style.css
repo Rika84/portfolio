@@ -137,11 +137,20 @@
 
 .navigator{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    font-family: 'Suisse Intl Trial';
+    height: 70px;
+
 }
+
 a{
     text-decoration: none;
+    font-family: 'Suisse Intl Trial';
+    color: #616161;
+    height: 19px;
+
 }
 ul{
     color: #C4C4C4;
@@ -172,8 +181,7 @@ ul li ul {
      opacity: 0;
      position: relative;
      transition: all 0.5s ease;
-     margin-top: 1rem;
-     left: 0;
+
      display: none;
 }
    
@@ -190,3 +198,30 @@ ul li ul li {
 }
 li > a:after { content:  ' ▼'; }
 li > a:only-child:after { content: ''; }
+
+.redik{
+    width: 100%;
+    height: 3px;
+
+    justify-content: center;
+    margin-top: 20px;
+}
+ul li:hover > .redik{
+    background-color: #DD4053;
+}
+.naved{
+    margin-top: 16px;
+
+
+}
+.naved:hover > .redik{
+    background-color: #DD4053;
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.lupa{
+    margin-top: 16px;
+}
