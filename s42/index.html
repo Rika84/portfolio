@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="./index.css">
+</head> 
+<body>
+    <div class="zag">
+        <div class="zag_text">
+            <h3>Введите текст:</h3>
+            <label for="text"></label>
+            <input type="text" id="text" name="text"> 
+        </div>
+        <div class="zag_tag">
+            <h3>Тег:</h3>
+            <select name="tag" id="tag">
+                <option value="дом">дом</option>
+                <option value="работа">работа</option>
+                <option value="отдых">отдых</option>
+            </select>
+        </div> 
+        <div class="btn" id="btn-create">Create</div> 
+    </div> 
+ 
+    <div class="toDo"> 
+        <h1>ToDo</h1> 
+        <ol class="toDo--list"> 
+            <!-- <li class="toDo--item"> 
+                <div class="item--text"></div> 
+                <div class="item--tag"></div> 
+                <div class="item--date"></div> 
+                <div class="btn" onclick="moveToRestore(this)">Delete</div> 
+            </li> --> 
+        </ol> 
+    </div> 
+ 
+    <div class="restore"> 
+        <h1>Restore</h1> 
+        <ol class="restore--list"> 
+ 
+        </ol> 
+    </div> 
+    <script src="./index.js"></script> 
+</body> 
+</html>

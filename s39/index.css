@@ -1,0 +1,47 @@
+body{
+    margin-top: 20px;
+    font-size: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 221, 221, 0.938);
+}
+.heroes{
+    width: 16%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(202, 243, 255);
+}
+.heroe2{
+    margin-bottom: 2px;
+    border-radius: 4%;
+    background-color: rgb(151, 132, 255);
+}
+.Planets{
+    width: 16%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(142, 247, 182);
+}
+.planeto2{
+    margin-bottom: 2px;
+    border-radius: 4%;
+    background-color: rgb(75, 223, 99);
+}
+.Ships{
+    width: 16%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(240, 183, 252);
+}
+.shipo2{
+    margin-bottom: 2px;
+    border-radius: 4%;
+    background-color: rgb(255, 132, 183);
+}

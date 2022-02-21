@@ -1,0 +1,38 @@
+.zag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(45, 162, 167);
+    color: rgb(3, 24, 32);
+}
+#btn-create{
+    background-color: rgb(23, 24, 124);
+    color: rgb(175, 237, 241);
+    width: 60px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 45%;
+}
+input{
+    background-color: rgb(158, 212, 233);
+    border-color: rgb(45, 150, 182);
+}
+.zag_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zag_tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 70px;
+    background-color: rgb(158, 212, 233);
+    border-color: rgb(45, 150, 182);
+    color: rgb(3, 24, 32);
+}
